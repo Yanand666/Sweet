@@ -1,0 +1,19 @@
+
+body {
+  background: #121212;
+  color: #f0f0f0;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+input, button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+audio {
+  display: block;
+  margin-top: 0.5rem;
+}
+img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
