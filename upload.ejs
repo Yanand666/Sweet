@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Upload Music</title>
+  <link rel="stylesheet" href="/public/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📤 Upload Track</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="text" name="title" placeholder="Track Title" required />
+      <input type="text" name="artist" placeholder="Artist Name" required />
+      <input type="file" name="music" accept="audio/*" required />
+      <input type="file" name="cover" accept="image/*" />
+      <button type="submit">Upload</button>
+    </form>
+    <a href="/" class="back-btn">⬅ Back to Library</a>
+  </div>
+</body>
+</html>
